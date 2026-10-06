@@ -1,10 +1,10 @@
-# BrainStorm Routing для Happ
+# AbobikPopik routing для Happ
 
 Профиль на основе [RoscomVPN](https://github.com/hydraponique/roscomvpn-routing) с собственными дополнениями. Исходные правила и geo-базы предоставляются авторами RoscomVPN.
 
 ## Установка
 
-Откройте [DEFAULT.DEEPLINK](https://raw.githubusercontent.com/1BrainStorm9/happ-routing/refs/heads/main/HAPP/DEFAULT.DEEPLINK), скопируйте весь текст `happ://routing/onadd/...` и импортируйте его в Happ через буфер обмена. Профиль называется **BrainStorm Routing**. При необходимости выберите нужную подписку, затем переподключите VPN.
+Откройте [DEFAULT.DEEPLINK](https://raw.githubusercontent.com/1BrainStorm9/happ-routing/refs/heads/main/HAPP/DEFAULT.DEEPLINK), скопируйте весь текст `happ://routing/onadd/...` и импортируйте его в Happ через буфер обмена. Профиль называется **AbobikPopik routing**. При необходимости выберите нужную подписку, затем переподключите VPN.
 
 ## Свои сайты
 

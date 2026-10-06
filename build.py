@@ -36,7 +36,7 @@ def build():
             [rule for rule in profile.get(key, []) if rule not in owners]
             + overrides[key]
         ))
-    profile["Name"] = "BrainStorm Routing"
+    profile["Name"] = "AbobikPopik routing"
     output = ROOT / "HAPP"
     output.mkdir(exist_ok=True)
     target = output / "DEFAULT.JSON"
