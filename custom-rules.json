@@ -1,5 +1,8 @@
 {
   "ProxySites": [],
-  "DirectSites": [],
+  "DirectSites": [
+    "domain:mangabuff.ru",
+    "domain:gradusi.net"
+  ],
   "BlockSites": []
 }

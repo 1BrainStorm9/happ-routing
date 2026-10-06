@@ -12,7 +12,7 @@
   "DomesticDNSIP": "77.88.8.8",
   "Geoipurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip@202610061012/release/geoip.dat",
   "Geositeurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite@202610060735/release/geosite.dat",
-  "LastUpdated": "1791300288",
+  "LastUpdated": "1791300320",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
     "lknpd.nalog.ru": "213.24.64.181"
@@ -30,7 +30,9 @@
     "geosite:steam",
     "geosite:twitch",
     "geosite:pinterest",
-    "geosite:faceit"
+    "geosite:faceit",
+    "domain:mangabuff.ru",
+    "domain:gradusi.net"
   ],
   "DirectIp": [
     "geoip:private",
