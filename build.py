@@ -17,9 +17,13 @@ def build():
         raise ValueError("Unexpected upstream deeplink format")
     profile = json.loads(base64.b64decode(upstream[len(PREFIX):], validate=True))
     overrides = json.loads((ROOT / "custom-rules.json").read_text(encoding="utf-8"))
-    keys = ("ProxySites", "DirectSites", "BlockSites")
-    if set(overrides) != set(keys):
-        raise ValueError("custom-rules.json must contain exactly the three site lists")
+    site_keys = ("ProxySites", "DirectSites", "BlockSites")
+    ip_keys = ("ProxyIp", "DirectIp", "BlockIp")
+    keys = site_keys + ip_keys
+    if not set(site_keys).issubset(overrides) or set(overrides) - set(keys):
+        raise ValueError("custom-rules.json requires the three site lists and accepts optional IP lists")
+    for key in ip_keys:
+        overrides.setdefault(key, [])
     owners = {}
     for key in keys:
         if not isinstance(overrides[key], list):

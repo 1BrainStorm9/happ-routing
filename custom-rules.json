@@ -4,5 +4,8 @@
     "domain:mangabuff.ru",
     "domain:gradusi.net"
   ],
-  "BlockSites": []
+  "BlockSites": [],
+  "DirectIp": [
+    "217.74.45.84"
+  ]
 }
